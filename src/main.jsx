@@ -12,6 +12,7 @@ import Home from './components/Home';
 import Statistics from './components/Statistics';
 import AppliedJobs from './components/AppliedJobs';
 import Blog from './components/Blog';
+import Categories from './components/Categories';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home></Home>
+        element: <Home></Home>,
+        children:[
+          {
+            path: '/',
+            element: <Categories></Categories>,
+            loader: () => fetch('category.json')
+            
+          }
+        ]
       },
       {
         path: '/statistics',

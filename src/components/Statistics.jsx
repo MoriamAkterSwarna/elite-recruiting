@@ -5,11 +5,11 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 
 const Statistics = () => {
     const marks = useLoaderData()
-    console.log(marks)
+    // console.log(marks)
     return (
     
         <AreaChart
-        width={500}
+        width={1500}
         height={400}
         data={marks}
         margin={{
