@@ -1,25 +1,25 @@
  [
     { 
       "id": 1, 
-      "categoryLogoImage": "https://example.com/images/it.png", 
+      "categoryLogoImage": "../src/assets/Icons/social-media 1.png", 
       "categoryName": "Information Technology", 
       "availableJobs": 120 
     },
     { 
       "id": 2, 
-      "categoryLogoImage": "https://example.com/images/finance.png", 
+      "categoryLogoImage": "../src/assets/Icons/accounts 1.png", 
       "categoryName": "Finance and Accounting", 
       "availableJobs": 80 
     },
     { 
       "id": 3, 
-      "categoryLogoImage": "https://example.com/images/marketing.png", 
+      "categoryLogoImage": "../src/assets/Icons/business 1.png", 
       "categoryName": "Marketing and Advertising", 
       "availableJobs": 60 
     },
     { 
       "id": 4, 
-      "categoryLogoImage": "https://example.com/images/healthcare.png", 
+      "categoryLogoImage": "../src/assets/Icons/chip 1.png", 
       "categoryName": "Healthcare", 
       "availableJobs": 100 
     }
