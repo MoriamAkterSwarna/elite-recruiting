@@ -46,17 +46,17 @@ const Header = () => {
                     {isMenuOpen && (
             <div className='absolute top-0 left-0 w-full z-10'>
               <div className='p-5 bg-white border rounded shadow-sm'>
-                {/* Logo & Button section */}
+                
                 <div className='flex items-center justify-between mb-4'>
                   <div>
                     <Link to='/' className='inline-flex items-center'>
-                      <BoltIcon className='h-6 w-6 text-blue-500' />
+                      <BriefcaseIcon className='h-6 w-6 text-blue-500' />
                       <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
-                        nextPage
+                        EliteRecruiting
                       </span>
                     </Link>
                   </div>
-                  {/* Dropdown menu close button */}
+                  
                   <div>
                     <button
                       aria-label='Close Menu'
@@ -77,18 +77,26 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        to='/books'
-                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
+                        to='/statistics'
+                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-fuchsia-500'
                       >
-                        Books
+                        Statistics
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to='/about'
-                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
+                        to='/appliedjobs'
+                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-fuchsia-500'
                       >
-                        About Us
+                        Applied Jobs
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to='/blog'
+                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-fuchsia-500'
+                      >
+                        Blog
                       </Link>
                     </li>
                   </ul>
