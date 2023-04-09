@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "companyLogo": "../src/assets/All Images/tesla-9 1.png",
+      "companyLogo": "https://i.ibb.co/XpWy5qP/tesla-9-1.png",
       "jobTitle": "Software Engineer",
       "companyName": "ABC Corporation",
       "remoteOrOnsite": "Remote",
@@ -19,7 +19,7 @@
     },
     {
       "id": 2,
-      "companyLogo": "../src/assets/All Images/google-1-1 1.png",
+      "companyLogo": "https://i.ibb.co/6H38Jc5/google-1-1-1.png",
       "jobTitle": "Marketing Manager",
       "companyName": "XYZ Company",
       "remoteOrOnsite": "Onsite",
@@ -37,7 +37,7 @@
     },
     {
       "id": 3,
-      "companyLogo": "../src/assets/All Images/netflix-4 1.png",
+      "companyLogo": "https://i.ibb.co/bNccpgj/netflix-4-1.png",
       "jobTitle": "Product Manager",
       "companyName": "123 Industries",
       "remoteOrOnsite": "Onsite",
@@ -56,7 +56,7 @@
 
     {
           "id": 4,
-          "companyLogo": "../src/assets/All Images/Group 10021.png",
+          "companyLogo": "https://i.ibb.co/4pZfD6k/Group-10021.png",
           "jobTitle": "Web Developer",
           "companyName": "ABC Company",
           "remoteOrOnsite": "Remote",
@@ -74,7 +74,7 @@
         },
         {
           "id": 5,
-          "companyLogo": "../src/assets/All Images/netflix-4 1.png",
+          "companyLogo": "https://i.ibb.co/bNccpgj/netflix-4-1.png",
           "jobTitle": "Data Analyst",
           "companyName": "XYZ Corporation",
           "remoteOrOnsite": "Onsite",
@@ -92,7 +92,7 @@
         },
         {
           "id": 6,
-          "companyLogo": "../src/assets/All Images/tesla-9 1.png",
+          "companyLogo": "https://i.ibb.co/XpWy5qP/tesla-9-1.png",
           "jobTitle": "Marketing Manager",
           "companyName": "123 Marketing",
           "remoteOrOnsite": "Remote",
