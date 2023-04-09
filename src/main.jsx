@@ -13,6 +13,7 @@ import Statistics from './components/Statistics';
 import AppliedJobs from './components/AppliedJobs';
 import Blog from './components/Blog';
 import Categories from './components/Categories';
+import Jobs from './components/Jobs';
 
 const router = createBrowserRouter([
   {
@@ -27,9 +28,18 @@ const router = createBrowserRouter([
           {
             path: '/',
             element: <Categories></Categories>,
-            loader: () => fetch('category.json')
+            loader: () => fetch('category.json'),
+            children:[
+              {
+                
+                  path: '/',
+                  element: <Jobs></Jobs>
+                
+              }
+            ]
             
           }
+          
         ]
       },
       {

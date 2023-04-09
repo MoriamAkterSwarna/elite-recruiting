@@ -20,7 +20,7 @@ const Statistics = () => {
         }}
       >
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="assignmentName" />
+        <XAxis dataKey="assignmentNumber" />
         <YAxis />
         <Tooltip />
         <Area type="monotone" dataKey="attendance" stackId="1" stroke="#8884d8" fill="#8884d8" />

@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "companyLogo": "../src/assets/All Images/tesla-9 1.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "ABC Corporation",
+      "remoteOrOnsite": "Remote",
+      "location": "Anytown, USA",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "$120,000 per year",
+      "jobDescription": "ABC Corporation is seeking a talented software engineer to join our team. The successful candidate will work on developing cutting-edge software solutions for our clients.",
+      "jobResponsibility": "Collaborate with cross-functional teams to design, develop, and implement software solutions\n- Write clean, efficient, and well-documented code\n- Troubleshoot and debug code issues\n- Participate in code reviews and provide constructive feedback",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "3+ years of experience in software engineering",
+      "contactInformation": {
+        "phone": "555-555-5555",
+        "email": "jobs@abccorp.com"
+      }
+    },
+    {
+      "id": 2,
+      "companyLogo": "../src/assets/All Images/google-1-1 1.png",
+      "jobTitle": "Marketing Manager",
+      "companyName": "XYZ Company",
+      "remoteOrOnsite": "Onsite",
+      "location": "New York, NY",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "$90,000 per year",
+      "jobDescription": "XYZ Company is seeking an experienced marketing manager to oversee all marketing efforts for our company. The successful candidate will develop and implement marketing campaigns and strategies to increase brand awareness and drive sales.",
+      "jobResponsibility": "Develop and implement marketing campaigns and strategies\n- Manage marketing budget and allocate resources effectively\n- Collaborate with cross-functional teams to align marketing efforts with overall company goals\n- Analyze marketing data and provide insights for future campaigns",
+      "educationalRequirements": "Bachelor's degree in Marketing or related field",
+      "experiences": "5+ years of experience in marketing",
+      "contactInformation": {
+        "phone": "555-555-5555",
+        "email": "jobs@xyzcompany.com"
+      }
+    },
+    {
+      "id": 3,
+      "companyLogo": "../src/assets/All Images/netflix-4 1.png",
+      "jobTitle": "Product Manager",
+      "companyName": "123 Industries",
+      "remoteOrOnsite": "Onsite",
+      "location": "San Francisco, CA",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "$150,000 per year",
+      "jobDescription": "123 Industries is seeking an experienced product manager to lead our product development efforts. The successful candidate will be responsible for the entire product lifecycle, from ideation to launch.",
+      "jobResponsibility": "- Develop product roadmap and strategy\n- Collaborate with cross-functional teams to prioritize features and requirements\n- Manage product development process from ideation to launch\n- Analyze market and user data to inform product decisions",
+      "educationalRequirements": "Bachelor's degree in Business Administration or related field",
+      "experiences": "7+ years of experience in product management",
+      "contactInformation": {
+        "phone": "555-555-5555",
+        "email": "jobs@123industries.com"
+      }
+    },
+
+    {
+          "id": 4,
+          "companyLogo": "../src/assets/All Images/Group 10021.png",
+          "jobTitle": "Web Developer",
+          "companyName": "ABC Company",
+          "remoteOrOnsite": "Remote",
+          "location": "New York, NY",
+          "fulltimeOrParttime": "Full-time",
+          "salary": "$80,000 - $100,000 per year",
+          "jobDescription": "We are seeking a skilled web developer to join our team and help us build and maintain our company's website.",
+          "jobResponsibility": "Responsibilities include writing clean, efficient code, testing and debugging web applications, and collaborating with other team members to ensure high-quality software.",
+          "educationalRequirements": "A bachelor's degree in computer science or a related field is preferred, but not required.",
+          "experiences": "At least 3 years of professional experience in web development is required.",
+          "contactInformation": {
+            "phone": "123-456-7890",
+            "email": "jobs@abccompany.com"
+          }
+        },
+        {
+          "id": 5,
+          "companyLogo": "../src/assets/All Images/netflix-4 1.png",
+          "jobTitle": "Data Analyst",
+          "companyName": "XYZ Corporation",
+          "remoteOrOnsite": "Onsite",
+          "location": "San Francisco, CA",
+          "fulltimeOrParttime": "Part-time",
+          "salary": "$50 - $60 per hour",
+          "jobDescription": "We are seeking a data analyst to help us analyze and interpret large amounts of data and provide insights to our team.",
+          "jobResponsibility": "Responsibilities include collecting and interpreting data, creating reports and visualizations, and communicating findings to team members.",
+          "educationalRequirements": "A bachelor's degree in statistics, mathematics, or a related field is required.",
+          "experiences": "At least 2 years of professional experience in data analysis is preferred.",
+          "contactInformation": {
+            "phone": "987-654-3210",
+            "email": "jobs@xyzcorp.com"
+          }
+        },
+        {
+          "id": 6,
+          "companyLogo": "../src/assets/All Images/tesla-9 1.png",
+          "jobTitle": "Marketing Manager",
+          "companyName": "123 Marketing",
+          "remoteOrOnsite": "Remote",
+          "location": "Chicago, IL",
+          "fulltimeOrParttime": "Full-time",
+          "salary": "$90,000 - $110,000 per year",
+          "jobDescription": "We are seeking a marketing manager to lead our marketing team and develop and execute marketing strategies to grow our business.",
+          "jobResponsibility": "Responsibilities include developing marketing plans and budgets, managing campaigns, analyzing market trends and customer data, and collaborating with other teams to develop and implement cross-functional initiatives.",
+          "educationalRequirements": "A bachelor's degree in marketing, business, or a related field is required.",
+          "experiences": "At least 5 years of professional experience in marketing is required, with at least 2 years in a management role.",
+          "contactInformation": {
+            "phone": "555-555-5555",
+            "email": "jobs@123marketing.com"
+          }
+        }
+    ]
+  

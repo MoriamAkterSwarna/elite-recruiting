@@ -1,10 +1,10 @@
  [
-    { "id": 1, "assignmentName": "Math Homework", "assignmentMarks": 80, "attendance": 15, "quizMarks": 25 },
-    { "id": 2, "assignmentName": "Science Project", "assignmentMarks": 92, "attendance": 22, "quizMarks": 30 },
-    { "id": 3, "assignmentName": "English Essay", "assignmentMarks": 75, "attendance": 18, "quizMarks": 28 },
-    { "id": 4, "assignmentName": "History Presentation", "assignmentMarks": 88, "attendance": 20, "quizMarks": 32 },
-    { "id": 5, "assignmentName": "Art Portfolio", "assignmentMarks": 95, "attendance": 17, "quizMarks": 43 },
-    { "id": 6, "assignmentName": "Physical Education Test", "assignmentMarks": 82, "attendance": 19, "quizMarks": 50 },
-    { "id": 7, "assignmentName": "Computer Science Assignment", "assignmentMarks": 90, "attendance": 16, "quizMarks": 47 }
+    { "id": 1, "assignmentNumber": "Assignment1", "assignmentMarks": 80, "attendance": 15, "quizMarks": 25 },
+    { "id": 2, "assignmentNumber": "Assignment2", "assignmentMarks": 92, "attendance": 22, "quizMarks": 30 },
+    { "id": 3, "assignmentNumber": "Assignment3", "assignmentMarks": 75, "attendance": 18, "quizMarks": 28 },
+    { "id": 4, "assignmentNumber": "Assignment4", "assignmentMarks": 88, "attendance": 20, "quizMarks": 32 },
+    { "id": 5, "assignmentNumber": "Assignment5", "assignmentMarks": 95, "attendance": 17, "quizMarks": 43 },
+    { "id": 6, "assignmentNumber": "Assignment6", "assignmentMarks": 82, "attendance": 19, "quizMarks": 50 },
+    { "id": 7, "assignmentNumber": "Assignment7", "assignmentMarks": 90, "attendance": 16, "quizMarks": 47 }
   ]
   

@@ -1,7 +1,7 @@
 import React from 'react';
-import books from '../assets/63258-career-animation.json'
+import animation from '../assets/63258-career-animation.json'
 import Lottie from "lottie-react";
-import { ShoppingCartIcon } from '@heroicons/react/24/solid'
+
 import { Link, Outlet } from 'react-router-dom';
 const Home = () => {
     return (
@@ -32,7 +32,7 @@ const Home = () => {
       
        <div className='relative lg:w-1/2 '>
          <div className='w-full lg:w-4/5 lg:ml-auto h-56 sm:h-96'>
-           <Lottie animationData={books} loop={true} />
+           <Lottie animationData={animation} loop={true} />
          </div>
        </div>
        
