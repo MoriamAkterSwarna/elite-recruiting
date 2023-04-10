@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const SingleAppliedJobs = ({applyJob}) => {
     const {companyLogo,jobTitle,companyName,salary,location,id,remoteOrOnsite,fullTimeOrPartTime} = applyJob
 
-    console.log(applyJob)
     return (
         <div>
            <div className="card card-side w-3/4 my-8 ml-20 border px-4 bg-base-100 shadow-xl">
@@ -24,8 +23,8 @@ const SingleAppliedJobs = ({applyJob}) => {
                         
                     </div>
                     <div className='flex items-center justify-evenly'>
-                    <p className='mr-8'><small className='inline-flex'><MapPinIcon className="h-6 w-6 text-gray-500" />{location}</small></p>
-                        <p><small className='inline-flex'><CurrencyDollarIcon className="h-6 w-6 text-gray-500" />
+                    <p className='mr-8'><small className='inline-flex'><MapPinIcon className="h-5 w-5 text-gray-500" />{location}</small></p>
+                        <p><small className='inline-flex'><CurrencyDollarIcon className="h-5 w-5 text-gray-500" />
                     Salary: {salary}</small></p>
                     
                     </div>

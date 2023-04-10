@@ -28,7 +28,18 @@ const AppliedJobs = () => {
            <h3 className='text-center text-3xl font-bold py-10 h-[100px] bg-gray-100'>Applied Jobs</h3>
 
                         
-                <div className='my-container'>
+                <div className='my-container relative'>
+                    <div className='ml-[55%]'>
+                        <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box w-1/4">
+                            <div className="collapse-title text-xl font-medium">
+                                Filter By
+                            </div>
+                            <div className="collapse-content">
+                                <p>Show Onsite</p>
+                                <p>Show Remote</p>
+                            </div>
+                        </div>
+                    </div>
                 {
                     applyJob.map(applyJob => <SingleAppliedJobs key={applyJob.id} applyJob={applyJob}></SingleAppliedJobs>)
                 }

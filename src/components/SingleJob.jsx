@@ -20,8 +20,8 @@ const SingleJob = ({job}) => {
                 </div>
                 <div className="card-actions mt-3">
                    <div className='flex justify-between items-center'>
-                        <p className='mr-8'><small><MapPinIcon className="h-6 w-6 text-gray-500" />{location}</small></p>
-                        <p><small><CurrencyDollarIcon className="h-6 w-6 text-gray-500" />
+                        <p className='mr-8'><small className='inline-flex'><MapPinIcon className="h-5 w-5 text-gray-500" />{location}</small></p>
+                        <p><small className='inline-flex'><CurrencyDollarIcon className="h-5 w-5 text-gray-500" />
                     Salary: {salary}</small></p>
                    </div>
                 <Link to={`/jobs/${id}`}>

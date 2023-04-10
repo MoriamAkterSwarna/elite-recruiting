@@ -12,10 +12,10 @@
       "jobResponsibility": "Collaborate with cross-functional teams to design, develop, and implement software solutions\n- Write clean, efficient, and well-documented code\n- Troubleshoot and debug code issues\n- Participate in code reviews and provide constructive feedback",
       "educationalRequirements": "Bachelor's degree in Computer Science or related field",
       "experiences": "3+ years of experience in software engineering",
-      "contactInformation": {
+      
         "phone": "555-555-5555",
         "email": "jobs@abccorp.com"
-      }
+      
     },
     {
       "id": 2,
@@ -30,10 +30,10 @@
       "jobResponsibility": "Develop and implement marketing campaigns and strategies\n- Manage marketing budget and allocate resources effectively\n- Collaborate with cross-functional teams to align marketing efforts with overall company goals\n- Analyze marketing data and provide insights for future campaigns",
       "educationalRequirements": "Bachelor's degree in Marketing or related field",
       "experiences": "5+ years of experience in marketing",
-      "contactInformation": {
+      
         "phone": "555-555-5555",
         "email": "jobs@xyzcompany.com"
-      }
+      
     },
     {
       "id": 3,
@@ -48,10 +48,10 @@
       "jobResponsibility": "- Develop product roadmap and strategy\n- Collaborate with cross-functional teams to prioritize features and requirements\n- Manage product development process from ideation to launch\n- Analyze market and user data to inform product decisions",
       "educationalRequirements": "Bachelor's degree in Business Administration or related field",
       "experiences": "7+ years of experience in product management",
-      "contactInformation": {
+     
         "phone": "555-555-5555",
         "email": "jobs@123industries.com"
-      }
+      
     },
 
     {
@@ -67,10 +67,10 @@
           "jobResponsibility": "Responsibilities include writing clean, efficient code, testing and debugging web applications, and collaborating with other team members to ensure high-quality software.",
           "educationalRequirements": "A bachelor's degree in computer science or a related field is preferred, but not required.",
           "experiences": "At least 3 years of professional experience in web development is required.",
-          "contactInformation": {
+          
             "phone": "123-456-7890",
             "email": "jobs@abccompany.com"
-          }
+         
         },
         {
           "id": 5,
@@ -85,11 +85,10 @@
           "jobResponsibility": "Responsibilities include collecting and interpreting data, creating reports and visualizations, and communicating findings to team members.",
           "educationalRequirements": "A bachelor's degree in statistics, mathematics, or a related field is required.",
           "experiences": "At least 2 years of professional experience in data analysis is preferred.",
-          "contactInformation": {
+          
             "phone": "987-654-3210",
             "email": "jobs@xyzcorp.com"
-          }
-        },
+          },
         {
           "id": 6,
           "companyLogo": "https://i.ibb.co/XpWy5qP/tesla-9-1.png",
@@ -103,10 +102,9 @@
           "jobResponsibility": "Responsibilities include developing marketing plans and budgets, managing campaigns, analyzing market trends and customer data, and collaborating with other teams to develop and implement cross-functional initiatives.",
           "educationalRequirements": "A bachelor's degree in marketing, business, or a related field is required.",
           "experiences": "At least 5 years of professional experience in marketing is required, with at least 2 years in a management role.",
-          "contactInformation": {
-            "phone": "555-555-5555",
-            "email": "jobs@123marketing.com"
-          }
+          "phone": "555-555-5555",
+          "email": "jobs@123marketing.com"
+          
         }
     ]
   
