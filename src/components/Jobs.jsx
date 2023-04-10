@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import SingleJob from './SingleJob';
 
 const Jobs = () => {
     const jobs = useLoaderData()
+    const [showAll, setShowAll] = useState(false);
+    const handleShowAll = () =>{
+        setShowAll(true);
+
+    }
     return (
         <div className='text-center my-6'>
             <h2 className='text-4xl font-bold mb-6'>Featured Jobs</h2>
@@ -12,9 +17,15 @@ const Jobs = () => {
 
                 <div className='my-container grid lg:grid-cols-2 gap-10'>
                     {
-                        jobs.map(job => <SingleJob key={job.id} job={job}></SingleJob>)
+                        Array.from(jobs).slice(0, showAll ? 6 : 4).map(job => <SingleJob key={job.id} job={job}></SingleJob>)
                         
                     }
+                     {
+                !showAll && (
+                   <span onClick={handleShowAll}>
+                    <button className='btn-primary'>See More</button>
+                </span> )
+            }
                 </div>
         </div>
     );

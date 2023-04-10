@@ -3,7 +3,7 @@ import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid'
 import { Link } from 'react-router-dom';
 const SingleJob = ({job}) => {
     
-    const {companyLogo,jobTitle,companyName,salary,location,id} = job
+    const {companyLogo,jobTitle,companyName,salary,location,id,remoteOrOnsite,fullTimeOrPartTime} = job
     return (
         <div>
             <div className="card w-96 bg-base-100 shadow-xl border">
@@ -15,8 +15,8 @@ const SingleJob = ({job}) => {
                 <p className='text-gray-500'>{companyName}</p>
 
                 <div className='inline-flex'>
-                <button className='btn-outlined'>remote</button>
-                <button className='btn-outlined'>time</button>
+                <button className='btn-outlined'>{remoteOrOnsite}</button>
+                <button className='btn-outlined'>{fullTimeOrPartTime}</button>
                 </div>
                 <div className="card-actions mt-3">
                    <div className='flex justify-between items-center'>
@@ -25,7 +25,7 @@ const SingleJob = ({job}) => {
                     Salary: {salary}</small></p>
                    </div>
                 <Link to={`/jobs/${id}`}>
-                <button className="btn btn-primary">Buy Now</button>
+                <button className="btn btn-primary">View Details</button>
                 </Link>
                 </div>
             </div>

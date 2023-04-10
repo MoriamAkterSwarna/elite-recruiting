@@ -1,11 +1,13 @@
 import React from 'react';
 
-const d = () => {
+const AppliedJobs = ({job,applyHandler}) => {
+    console.log(job)
+    console.log(applyHandler)
     return (
         <div>
-            jobs
+            blog
         </div>
     );
 };
 
-export default d;
+export default AppliedJobs;
