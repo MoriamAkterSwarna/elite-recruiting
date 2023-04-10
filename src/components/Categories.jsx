@@ -4,7 +4,6 @@ import SingleCategory from './SingleCategory';
 
 const Categories = () => {
     const categories = useLoaderData()
-    console.log(categories)
     return (
         <>
         <div className='text-center'>

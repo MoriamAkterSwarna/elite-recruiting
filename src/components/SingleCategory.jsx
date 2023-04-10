@@ -1,7 +1,6 @@
 import React from 'react';
 
 const SingleCategory = ({category}) => {
-    console.log(category)
     const {categoryLogoImage,categoryName,availableJobs} = category
     return (
         <div className='mx-4 mb-10'>

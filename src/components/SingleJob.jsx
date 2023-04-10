@@ -1,8 +1,9 @@
 import React from 'react';
 import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 const SingleJob = ({job}) => {
-    console.log(job)
-    const {companyLogo,jobTitle,companyName,salary,location} = job
+    
+    const {companyLogo,jobTitle,companyName,salary,location,id} = job
     return (
         <div>
             <div className="card w-96 bg-base-100 shadow-xl border">
@@ -23,7 +24,9 @@ const SingleJob = ({job}) => {
                         <p><small><CurrencyDollarIcon className="h-6 w-6 text-gray-500" />
                     Salary: {salary}</small></p>
                    </div>
+                <Link to={`/jobs/${id}`}>
                 <button className="btn btn-primary">Buy Now</button>
+                </Link>
                 </div>
             </div>
             </div>
