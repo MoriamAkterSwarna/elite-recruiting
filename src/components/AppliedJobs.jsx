@@ -1,10 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { getStoredCart } from '../utilities/fakeDb';
 import { useLoaderData } from 'react-router-dom';
 import SingleAppliedJobs from './SingleAppliedJobs';
 
 const AppliedJobs = () => {
     const jobData = useLoaderData()
+    const [appliedJob,setAppliedJob] = useState(jobData);
+    const [selectJob, setSelectJob] = useState("");
+
+    const handleFilter = e=>{
+        
+        setSelectJob(e.target.value)
+        if(e.target.value === 'Remote'){
+            const filtered = appliedJob.filter(obj =>
+                obj.remoteOrOnsite.some(value => value  === "Remote"));
+                setAppliedJob(filtered);
+                console.log(filtered)
+        }
+        else if(e.target.value == 'Onsite'){
+            const filtered = appliedJob.filter(obj => obj.remoteOrOnsite.some(value => value === "Onsite"));
+            setAppliedJob(filtered);
+        }
+    }
+    
    
     
     let applyJob = [];
@@ -19,9 +37,6 @@ const AppliedJobs = () => {
         }
         
     }
-    // console.log(applyJob);
-    // const {companyLogo} = applyJob;
-    // console.log(companyLogo)
     
     return (
         <>
@@ -34,9 +49,9 @@ const AppliedJobs = () => {
                             <div className="collapse-title text-xl font-medium">
                                 Filter By
                             </div>
-                            <div className="collapse-content">
-                                <p>Show Onsite</p>
-                                <p>Show Remote</p>
+                            <div onClick={()=>handleFilter(e)} className="collapse-content">
+                                <button  className='btn mb-2'>Show Onsite</button>
+                                <button className='btn'>Show Remote</button>
                             </div>
                         </div>
                     </div>
