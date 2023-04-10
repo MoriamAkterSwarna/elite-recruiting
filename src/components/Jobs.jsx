@@ -23,7 +23,7 @@ const Jobs = () => {
                      {
                 !showAll && (
                    <span onClick={handleShowAll}>
-                    <button className='btn-primary'>See More</button>
+                    <button className='btn-primary'>See All Jobs</button>
                 </span> )
             }
                 </div>

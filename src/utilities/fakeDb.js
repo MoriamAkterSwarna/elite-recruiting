@@ -27,7 +27,7 @@ const addToDb = id => {
     if (storedCart) {
       applyCart = JSON.parse(storedCart)
     }
-    return applyCart
+    return applyCart;
   }
   
  

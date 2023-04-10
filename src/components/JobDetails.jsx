@@ -20,6 +20,8 @@ const JobDetails = () => {
     },[])
     const {jobDescription,jobResponsibility,educationalRequirements,experiences,salary,jobTitle,contactInformation,location}  = jobs
 
+    
+    
     const applyHandler= (job) =>{
         console.log(job)
         addToDb(id)
@@ -64,10 +66,7 @@ const JobDetails = () => {
                 </div>
                 
 
-               {
-                // Array.from(jobs).map(job => <AppliedJobs key={job.id} job={job} applyHandler={applyHandler}></AppliedJobs>)
-                Array.from(jobs).map(job => console.log(job))
-               }
+              
                 <button onClick={()=>applyHandler(job)} className='btn-primary'>Apply Now</button>
             </div>
             
