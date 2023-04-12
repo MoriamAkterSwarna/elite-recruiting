@@ -5,12 +5,12 @@ import SingleAppliedJobs from './SingleAppliedJobs';
 
 const AppliedJobs = () => {
     const jobData = useLoaderData()
-    const [appliedJob,setAppliedJob] = useState(jobData);
     const [selectJob, setSelectJob] = useState("");
+    console.log(selectJob)
 
-    const handleFilter = e=>{
+    const handleFilter = event=>{
         
-        setSelectJob(e.target.value)
+        setSelectJob(event.target.value)
         if(e.target.value === 'Remote'){
             const filtered = appliedJob.filter(obj =>
                 obj.remoteOrOnsite.some(value => value  === "Remote"));
@@ -49,7 +49,7 @@ const AppliedJobs = () => {
                             <div className="collapse-title text-xl font-medium">
                                 Filter By
                             </div>
-                            <div onClick={()=>handleFilter(e)} className="collapse-content">
+                            <div onClick={handleFilter} className="collapse-content">
                                 <button  className='btn mb-2'>Show Onsite</button>
                                 <button className='btn'>Show Remote</button>
                             </div>
