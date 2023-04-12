@@ -10,18 +10,10 @@ const AppliedJobs = () => {
 
     const handleFilter = event=>{
         
-        setSelectJob(event.target.value)
-        if(e.target.value === 'Remote'){
-            const filtered = appliedJob.filter(obj =>
-                obj.remoteOrOnsite.some(value => value  === "Remote"));
-                setAppliedJob(filtered);
-                console.log(filtered)
-        }
-        else if(e.target.value == 'Onsite'){
-            const filtered = appliedJob.filter(obj => obj.remoteOrOnsite.some(value => value === "Onsite"));
-            setAppliedJob(filtered);
-        }
+        setSelectJob(event.target.value);
+        
     }
+
     
    
     
@@ -37,7 +29,7 @@ const AppliedJobs = () => {
         }
         
     }
-    
+    const filteredAppliedJob= jobData.filter((job) =>job.remoteOrOnsite === selectJob || selectJob === "")
     return (
         <>
            <h3 className='text-center text-3xl font-bold py-10 h-[100px] bg-gray-100'>Applied Jobs</h3>
@@ -45,18 +37,15 @@ const AppliedJobs = () => {
                         
                 <div className='my-container relative'>
                     <div className='ml-[55%]'>
-                        <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box w-1/4">
-                            <div className="collapse-title text-xl font-medium">
-                                Filter By
-                            </div>
-                            <div onClick={handleFilter} className="collapse-content">
-                                <button  className='btn mb-2'>Show Onsite</button>
-                                <button className='btn'>Show Remote</button>
-                            </div>
-                        </div>
+                       <select value={selectJob}
+                       onChange={handleFilter}>
+                            <option value="">Filter By</option>
+                            <option value="Remote">Remote</option>
+                            <option value="Onsite">Onsite</option>
+                       </select>
                     </div>
                 {
-                    applyJob.map(applyJob => <SingleAppliedJobs key={applyJob.id} applyJob={applyJob}></SingleAppliedJobs>)
+                    filteredAppliedJob.map(applyJob => <SingleAppliedJobs key={applyJob.id} applyJob={applyJob}></SingleAppliedJobs>)
                 }
                 </div>
         </>
